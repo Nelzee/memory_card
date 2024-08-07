@@ -1,0 +1,37 @@
+/* Card.css */
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-name {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.card-name h3 {
+  margin: 0;
+  color: #333;
+}
